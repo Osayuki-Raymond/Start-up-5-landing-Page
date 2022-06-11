@@ -9,10 +9,6 @@ body {
     background: #808080;
 }
 
-header nav {
-    /* border-bottom: 5px solid #100f0f00; */
-}
-
 header nav ul {
     display: flex;
     justify-content: center;
