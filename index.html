@@ -1,30 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <link rel="stylesheet" href="/assets/font-awesome/css/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
     <title>Coming Soon...</title>
 </head>
+
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="/index.html"><img src="/images/logo.png" alt="Logo"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="/images/logo.png" alt="Logo" />
+                </a>
+            </div>
+
+            <ul class="list">
+                <li class="list-item">
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
 
-    <footer>
-        <div class="footer">
-            &copy; 2022 Entre Konnect
+    <section class="container">
+        <div class="content">
+            <div class="main">
+                <h3>OUR WEBSITE IS</h3>
+
+                   <h1 class="big">COMING <span>SOON</span></h1>
+            
+             <div class="launch-time">
+                 <div>
+                     <p id="days">00</p>
+                     <span>Days</span>
+                 </div>
+                 <div>
+                     <p id="hours">00</p>
+                     <span>Hours</span>
+                 </div>
+                 <div>
+                     <p id="minutes">00</p>
+                     <span>Minutes</span>
+                 </div>
+                 <div>
+                     <p id="seconds">00</p>
+                     <span>Seconds</span>
+                 </div>
+             </div>
+            </div>
+
+         <aside class="form">
+            <div class="form-wrap">
+                <h2>NEWSLETTER</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="Name"></label><br>
+                        <input type="text" id="Name" name="FirstName" placeholder="Name">
+                    </div> <br>
+                    <div class="form-group">
+                        <label for="Email"></label><br>
+                        <input type="text" id="Email" name="Email" placeholder="Email">
+                    </div><br>  
+                <button class="btn">Subscribe</button>
+
+                <h3>By clicking the Subscribe button, you agree to our <br> <a href="#">Terms & Conditions</a>
+                    and <a href="#"> Privacy Policy</a></h3>
+            </form>
+         </aside>
         </div>
-    </footer>
-</body>
+    </section>
+
 </html>
