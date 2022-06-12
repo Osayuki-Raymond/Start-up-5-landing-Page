@@ -5,8 +5,10 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background: #808080;
+    background-image: url(/images/linking.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 header nav ul {
