@@ -194,3 +194,18 @@ footer div p {
 footer div p span {
     margin-left: 5px;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 767px) {
+    .newsletter{
+        margin-top: 20px;
+    }
+
+    .countdown-text h4, .countdown-text h1{
+        margin-left: 0px;
+    }
+
+    footer{
+        top: 93%;
+    }
+}
