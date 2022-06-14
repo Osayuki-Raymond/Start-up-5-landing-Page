@@ -196,6 +196,54 @@ footer div p span {
 }
 
 /* MEDIA QUERIES */
+@media screen and (min-width: 360px) {
+    header{
+        width: 125%;
+    }
+
+    body{
+        height: 130vh;
+    }
+    
+    .logo a img{
+        width: 80%;
+    }
+
+    .list-item {
+        padding-right: 20px;
+    }
+
+    .countdown-text{
+        margin-left: 50px;
+    }
+
+    .countdown-text h4{
+        font-size: 19px;
+    }
+    
+    .countdown-text h4, .countdown-text h1{
+        margin-left: 55px;
+    }
+    
+    .countdown-text h1{
+        font-size: 40px;
+    }
+
+    .count-box{
+        padding: 15px;
+    }
+
+    .newsletter{
+        padding: 20px;
+    }
+
+    footer{
+        position: unset;
+        margin-top: 20%;
+        padding: 10% 5%;
+    }
+
+}
 @media screen and (max-width: 767px) {
     .newsletter{
         margin-top: 20px;
