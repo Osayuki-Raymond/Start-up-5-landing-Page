@@ -55,6 +55,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    margin: 0 auto;
 }
 
 /* MAIN */
@@ -196,7 +197,7 @@ footer div p span {
 }
 
 /* MEDIA QUERIES */
-@media screen and (width: 360px) {
+@media screen and (max-width: 480px) {
     header{
         width: 130%;
     }
