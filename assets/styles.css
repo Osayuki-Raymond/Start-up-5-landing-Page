@@ -257,7 +257,8 @@ footer div p span {
     }
 
     footer{
-        top: 138%;
+        position: relative;
+        top: 3%;
         width: 130%;
         padding: 40px 100px;
         left: 0%;
