@@ -115,7 +115,7 @@ main {
     background-color: rgba(203, 96, 21, 0.8);
     padding: 60px 50px;
     border-radius: 10px;
-    text-align: center;
+    align-self: center;
 }
 
 .newsletter h3{
@@ -196,13 +196,13 @@ footer div p span {
 }
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 360px) {
+@media screen and (width: 360px) {
     header{
-        width: 125%;
+        width: 130%;
     }
 
     body{
-        height: 130vh;
+        height: 150vh;
     }
     
     .logo a img{
@@ -213,16 +213,16 @@ footer div p span {
         padding-right: 20px;
     }
 
+    main{
+        justify-content: space-between;
+    }
+
     .countdown-text{
-        margin-left: 50px;
+        margin-left: 30px;
     }
 
     .countdown-text h4{
         font-size: 19px;
-    }
-    
-    .countdown-text h4, .countdown-text h1{
-        margin-left: 55px;
     }
     
     .countdown-text h1{
@@ -230,30 +230,38 @@ footer div p span {
     }
 
     .count-box{
+        margin-left: 10px;
         padding: 15px;
     }
 
     .newsletter{
-        padding: 20px;
+        margin-left: 24px;
+        margin-top: 50px;
+        padding: 60px 40px;
+    }
+
+    .newsletter h3{
+        align-self: center;
+    }
+
+    .newsletter form{
+        align-self: center; 
+    }
+
+    .box, .submit{
+        width: 330px;
+    }
+
+    .newsletter form p{
+        width: 340px;
     }
 
     footer{
-        position: unset;
-        margin-top: 20%;
-        padding: 10% 5%;
+        top: 138%;
+        width: 130%;
+        padding: 40px 100px;
+        left: 0%;
     }
 
 }
-@media screen and (max-width: 767px) {
-    .newsletter{
-        margin-top: 20px;
-    }
 
-    .countdown-text h4, .countdown-text h1{
-        margin-left: 0px;
-    }
-
-    footer{
-        top: 93%;
-    }
-}
