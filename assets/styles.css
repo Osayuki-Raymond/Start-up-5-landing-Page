@@ -164,6 +164,10 @@ input[placeholder], input[type="submit"], .newsletter form p{
     font-size: 17px;
 }
 
+.newsletter h3{
+    align-self: center;
+}
+
 .newsletter form p{
     width: 400px;
     margin-top: 10px;
@@ -173,6 +177,7 @@ input[placeholder], input[type="submit"], .newsletter form p{
 
 .newsletter form p a:hover{
     text-decoration: underline;
+    color: #FFFFFF;
 }
 
 /* FOOTER */
