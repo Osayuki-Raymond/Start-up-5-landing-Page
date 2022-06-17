@@ -127,6 +127,7 @@ main {
 .newsletter h3{
     font-size: 25px;
     margin-bottom: 15px;
+    align-self: center;
 }
 
 .box, .submit{
@@ -162,10 +163,6 @@ main {
 
 input[placeholder], input[type="submit"], .newsletter form p{
     font-size: 17px;
-}
-
-.newsletter h3{
-    align-self: center;
 }
 
 .newsletter form p{
