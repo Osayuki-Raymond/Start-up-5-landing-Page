@@ -48,6 +48,10 @@ nav {
     color: #Cb6015;
 }
 
+.list-item a i:active{
+    color: #000080;
+}
+
 body {
     background-image: url(/images/connect.jpg);
     background-color: #FFFFFF;
