@@ -49,6 +49,10 @@ nav {
     color: #Cb6015;
 }
 
+.list-item a i:active{
+    color: blue;
+}
+
 body {
     background-image: url(/images/connect.jpg);
     background-color: #FFFFFF;
@@ -115,7 +119,7 @@ main {
 
 .newsletter{
     background-color: rgba(203, 96, 21, 0.8);
-    padding: 60px 50px;
+    padding: 40px 50px;
     border-radius: 10px;
     align-self: center;
 }
@@ -124,6 +128,20 @@ main {
     font-size: 25px;
     margin-bottom: 15px;
     align-self: center;
+}
+
+.form-div, .mc-field-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.mc-field-group label{
+    color: #000080;
+    font-weight: 600;
+}
+
+.mail{
+    margin-top: 17px;
 }
 
 .box, .submit{
@@ -149,6 +167,7 @@ main {
     color: #FFFFFF;
     margin-top: 15px;
     border: none;
+    font-size: 17px;
 }
 
 .submit:hover{
@@ -157,20 +176,8 @@ main {
     font-weight: 600;
 }
 
-input[placeholder], input[type="submit"], .newsletter form p{
-    font-size: 17px;
-}
-
-.newsletter form p{
-    width: 400px;
+.brandingLogo a img{
     margin-top: 10px;
-    align-self: center;
-    font-weight: 600;
-}
-
-.newsletter form p a:hover{
-    text-decoration: underline;
-    color: #FFFFFF;
 }
 
 /* FOOTER */
